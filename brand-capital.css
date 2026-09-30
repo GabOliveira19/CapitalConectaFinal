@@ -1,0 +1,62 @@
+:root {
+    --cc-laranja: #FF7900;
+    --cc-laranja-escuro: #D95F00;
+    --cc-preto: #000000;
+    --cc-branco: #FFFFFF;
+    --cc-cinza: #F5F5F5;
+}
+
+body {
+    color: var(--cc-preto) !important;
+}
+
+/* Azul principal -> laranja */
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.bg-primary,
+.badge.bg-primary {
+    background-color: var(--cc-laranja) !important;
+    border-color: var(--cc-laranja) !important;
+    color: #fff !important;
+}
+
+.text-primary {
+    color: var(--cc-laranja) !important;
+}
+
+.border-primary {
+    border-color: var(--cc-laranja) !important;
+}
+
+/* Foco dos campos */
+.form-control:focus,
+.form-select:focus,
+input:focus,
+textarea:focus {
+    border-color: var(--cc-laranja) !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 121, 0, .18) !important;
+}
+
+/* Links */
+a {
+    color: var(--cc-laranja);
+}
+
+a:hover {
+    color: var(--cc-laranja-escuro);
+}
+
+/* Destaques */
+.highlight,
+.destaque {
+    background: #FFF1E6 !important;
+    border-color: #FFD2B0 !important;
+}
+
+/* Seleção */
+::selection {
+    background: var(--cc-laranja);
+    color: #fff;
+}
